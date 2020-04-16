@@ -148,9 +148,6 @@ if __name__ == '__main__':
     moon = SimulationObject("moon", bodys["earth"]["radius"] + 384400000, 0, 0, -1000, bodys["moon"]["mass"])
     simulation.add(moon)
 
-    # iss = obj("iss", bodys["earth"]["radius"] + 408000, 0, 0, -7660, 0)
-    # simulation.add(iss)
-
     # simulation.run(frames, simulation_speed) <--- lower speed is slower but more accurate.
     simulation.run(200000, 100)
 
