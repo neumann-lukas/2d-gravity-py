@@ -5,7 +5,7 @@ A small 2d program to simulate realistic gravity.
 ## First step
 First import the module:
 ```python
-  import GravityPy
+  from GravityPy import *
 ```
 Then create a Simulation:
 ```python
