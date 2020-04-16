@@ -129,7 +129,7 @@ class GravitySimulation:
             for o2 in self.objs:
                 points[self.objs.index(o2)].set_data(o2.data[frame][0] / 1000, o2.data[frame][1] / 1000)
 
-        m = FuncAnimation(fig, ani, frames=len(moon.data), interval=50)
+        m = FuncAnimation(fig, ani, frames=len(self.objs[0].data), interval=50)
         plt.show()
 
 
